@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.0">
+    <xsd:annotation>
+        <xsd:appinfo>
+            <jaxb:schemaBindings>
+                <jaxb:package name="com.prokopchuk.modules.web"/>
+            </jaxb:schemaBindings>
+        </xsd:appinfo>
+    </xsd:annotation>
+
+    <xsd:complexType name="UserCommand" >
+            <xsd:sequence>
+                <xsd:element name="firsName" type="xsd:string" />
+                <xsd:element name="lastName" type="xsd:string" />
+                <xsd:element name="email" type="xsd:string" />
+            </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

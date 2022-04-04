@@ -140,3 +140,4 @@ Desktop.ini
 ######################
 .eslintcache
 /jpa-entities/target/
+/web-api/target/
