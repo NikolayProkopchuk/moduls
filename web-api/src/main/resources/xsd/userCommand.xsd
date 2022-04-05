@@ -3,7 +3,7 @@
     <xsd:annotation>
         <xsd:appinfo>
             <jaxb:schemaBindings>
-                <jaxb:package name="com.prokopchuk.modules.web"/>
+                <jaxb:package name="com.prokopchuk.modules.domain"/>
             </jaxb:schemaBindings>
         </xsd:appinfo>
     </xsd:annotation>

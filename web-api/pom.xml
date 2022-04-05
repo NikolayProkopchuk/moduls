@@ -46,7 +46,7 @@
                 <configuration>
 
                     <outputDirectory>target/generated-sources/jaxb</outputDirectory>
-                    <packageName>com.login.app</packageName>
+                    <packageName>com.prokopchuk.modules.domain</packageName>
                     <schemaDirectory>src/main/resources/xsd</schemaDirectory>
                     <schemaFiles>userCommand.xsd</schemaFiles>
 
