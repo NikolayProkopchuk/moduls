@@ -143,3 +143,8 @@ Desktop.ini
 /web-api/target/
 /converters/target/
 /web-app/target/
+/.flattened-pom.xml
+/web-app/.flattened-pom.xml
+/web-api/.flattened-pom.xml
+/jpa-entities/.flattened-pom.xml
+/converters/.flattened-pom.xml
