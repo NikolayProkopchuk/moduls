@@ -10,7 +10,7 @@
 
     <xsd:complexType name="UserCommand" >
             <xsd:sequence>
-                <xsd:element name="firsName" type="xsd:string" />
+                <xsd:element name="firstName" type="xsd:string" />
                 <xsd:element name="lastName" type="xsd:string" />
                 <xsd:element name="email" type="xsd:string" />
             </xsd:sequence>

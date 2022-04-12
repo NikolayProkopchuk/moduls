@@ -141,3 +141,5 @@ Desktop.ini
 .eslintcache
 /jpa-entities/target/
 /web-api/target/
+/converters/target/
+/web-app/target/
