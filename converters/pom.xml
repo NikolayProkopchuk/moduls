@@ -11,11 +11,6 @@
 
     <artifactId>converters</artifactId>
 
-    <properties>
-        <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
-        <junit.version>5.8.2</junit.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.prokopchuk</groupId>
@@ -30,24 +25,20 @@
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
-            <version>${org.mapstruct.version}</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.vintage</groupId>
             <artifactId>junit-vintage-engine</artifactId>
-            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
